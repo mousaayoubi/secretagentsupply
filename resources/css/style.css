@@ -88,5 +88,111 @@ html, body {
 
 .nav-item {
 	display: inline-flex;
-	padding-right: 50px;
+	padding-right: 70px;
+}
+
+/* PRODUCTS */
+
+.products {
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 700px;
+	height: 300px;
+	padding-left: 200px;
+	flex-wrap: wrap;
+}
+
+.products-first {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	width: 200px;
+	height: 250px;
+	border: 2px solid black;
+}
+
+.products-first-image {
+	display: inline-flex;
+	justify-content: center;
+	width: 150px;
+	height: 200px;
+	background-image: url("../images/pen.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.products-first-text {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 50px;
+	background-color: black;
+	color: white;
+}
+
+.products-second {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	width: 200px;
+	height: 250px;
+	border: 2px solid black;
+}
+
+.products-second-image {
+	display: inline-flex;
+	justify-content: center;
+	width: 150px;
+	height: 200px;
+	background-image: url("../images/watch.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.products-second-text {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 50px;
+	background-color: black;
+	color: white;
+}
+
+.products-third {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	width: 200px;
+	height: 250px;
+	border: 2px solid black;
+}
+
+.products-third-image {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 200px;
+	background-image: url("../images/glasses.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.products-third-text {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 85px;
+	background-color: black;
+	color: white;
 }

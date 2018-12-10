@@ -196,3 +196,66 @@ html, body {
 	background-color: black;
 	color: white;
 }
+
+/* LOCATIONS AND HOURS */
+
+.location-hours {
+	display: inline-flex;
+	justify-content: space-between;
+	width: 500px;
+	height: 100px;
+	padding-left: 300px;
+	padding-top: 20px;
+}
+
+.location {
+	display: inline-flex;
+	flex-direction: column;
+	width: 200px;
+	height: 100px;
+}
+
+.location-box {
+	display: inline-flex;
+	align-items: center;
+	width: 200px;
+	height: 50px;
+	background-color: black;
+	color: white;
+	padding-left: 10px;
+}
+
+.location-text {
+	display: inline-flex;
+	align-items: center;
+	width: 200px;
+	height: 50px;
+	color: black;
+	padding-left: 10px;
+}
+
+.hours {
+	display: inline-flex;
+	flex-direction: column;
+	width: 200px;
+	height: 100px;
+}
+
+.hours-box {
+	display: inline-flex;
+	align-items: center;
+	width: 200px;
+	height: 50px;
+	background-color: black;
+	color: white;
+	padding-left: 10px;
+}
+
+.hours-text {
+	display: inline-flex;
+	align-items: center;
+	width: 200px;
+	height: 50px;
+	color: black;
+	padding-left: 10px;
+}

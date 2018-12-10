@@ -1,0 +1,92 @@
+html, body {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+/* HEADER */
+
+.header {
+	display: inline-flex;
+	align-items: center;
+	width: 1100px;
+	height: 80px;
+	background-color: black;
+	padding-left: 200px;
+}
+
+.logo {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background-image: url("../images/logo.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.logo-title {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+	width: 250px;
+	height: 80px;
+	color: white;
+}
+
+/* BANNER */
+
+.banner {
+	display: inline-flex;
+	align-items: center;
+	height: 300px;
+	width: 1100px;
+	background-image: url(../images/moto.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-left: 200px;
+
+}
+
+.banner-box {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 175px;
+	width: 300px;
+	background-color: black;
+	padding-left: 20px;
+}
+
+.banner-box-title {
+	display: inline-flex;
+	height: 50px;
+	color: white;
+}
+
+.banner-box-text {
+	display: inline-flex;
+	height: 50px;
+	font-size: 30px;
+	color: white;
+}
+
+/* NAVIGATION */
+
+.navigation {
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 50px;
+	width: 1100px;
+	background-color: red;
+	padding-left: 20px;
+	color: white;
+	padding-left: 200px;
+}
+
+.nav-item {
+	display: inline-flex;
+	padding-right: 50px;
+}

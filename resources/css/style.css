@@ -101,6 +101,7 @@ html, body {
 	height: 300px;
 	padding-left: 200px;
 	flex-wrap: wrap;
+	margin-top: 20px;
 }
 
 .products-first {
@@ -258,4 +259,25 @@ html, body {
 	height: 50px;
 	color: black;
 	padding-left: 10px;
+}
+
+/* FOOTER */
+
+.footer {
+	display: inline-flex;
+	width: 1100px;
+	height: 150px;
+	border: 1px solid gray;
+	background-color: black;
+	padding-left: 200px;
+	margin-top: 75px;
+}
+
+.footer-text {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	height: 150px;
 }

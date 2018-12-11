@@ -329,3 +329,69 @@ html, body {
 		width: 35%;
 	}
 } 
+
+@media only screen and (max-width: 470px) {
+	.banner {
+		height: 15rem;
+		width: 100%
+		padding-top: 10rem;
+	}
+
+	.banner-box {
+		width: 100%;
+		padding-top: 1rem;
+		padding-left: 2rem;
+	}
+
+	.banner-box-title {
+		font-family: Helvetica;
+		font-size: 0.77rem;
+		font-weight: bold;
+	}
+
+	.banner-box-text {
+		font-family: Helvetica;
+		font-size: 1rem;
+		font-weight: bold;
+	}
+
+	.nav-item {
+		display: none; 
+	}
+
+	.nav-item-tablet {
+		visibility: visible;
+		padding-left: 220px;
+	}
+
+	.products-first {
+		width: 90%;
+		background-position: center;
+	}
+
+	.products-second {
+		display: none;
+	}
+
+	.products-third {
+		display: none;
+	}
+
+	.location-hours {
+		flex-wrap: wrap;
+	}
+
+
+	.location {
+		width: 90%;
+	}
+
+	.hours {
+		width: 90%;
+		padding-top: 0.5rem;
+	}
+
+	.footer-text {
+		padding-left: 150px;
+	}
+}

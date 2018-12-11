@@ -106,6 +106,10 @@ html, body {
 	padding-right: 70px;
 }
 
+.nav-item-tablet {
+	visibility: hidden;
+}
+
 /* PRODUCTS */
 
 .products {
@@ -292,3 +296,36 @@ html, body {
 	text-align: left;
 	color: white;
 }
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 1024px) {
+	.nav-item {
+		display: none; 
+	}
+
+	.nav-item-tablet {
+		visibility: visible;
+		padding-left: 320px;
+	}
+
+	.products-first {
+		width: 47%;
+	}
+
+	.products-second {
+		width: 47%;
+	}
+
+	.products-third {
+		display: none;
+	}
+
+	.location {
+		width: 35%;
+	}
+
+	.hours {
+		width: 35%;
+	}
+} 
